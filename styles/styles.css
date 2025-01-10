@@ -154,8 +154,8 @@ input::-webkit-inner-spin-button {
   input[type=number] {
     font-size: 1.25rem;
     margin-right: 2rem;
-    padding-inline: 1.25rem;
-    padding-block: 0.75rem;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
     width: 100%;
   }
 
