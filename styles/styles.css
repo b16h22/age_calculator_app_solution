@@ -133,7 +133,7 @@ input::-webkit-inner-spin-button {
 
   .container {
     padding-inline: 1rem;
-    padding-block: 6rem;
+    padding-block: 4rem;
   }
 
   .card-layout {
@@ -173,7 +173,7 @@ input::-webkit-inner-spin-button {
   }
 
   .age-display-layout {
-    margin-top: 5rem;
+    margin-top: 4rem;
     margin-bottom: 2rem;
   }
 
