@@ -152,7 +152,7 @@ input::-webkit-inner-spin-button {
   }
 
   input[type=number] {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin-right: 2rem;
     padding-inline: 1.25rem;
     padding-block: 0.75rem;
@@ -162,7 +162,7 @@ input::-webkit-inner-spin-button {
   input[type=number]::placeholder {
     color: hsla(0, 1%, 44%, 0.6);
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   #submit-button {
@@ -178,13 +178,13 @@ input::-webkit-inner-spin-button {
   }
 
   #years-display, #months-display, #days-display {
-    font-size: 4rem;
+    font-size: 3.5rem;
     line-height: 5rem;
     letter-spacing: unset;
   }
   
   .years-title, .months-title, .days-title {
-    font-size: 4rem;
+    font-size: 3.5rem;
     line-height: 5rem;
   }
 
