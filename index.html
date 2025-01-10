@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Manrope:wght@200..800&family=Overpass:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+<body>
+  <div class="container">
+    <div class="card-layout">
+      <div class="form">
+        <div class="input-section">
+          <label class="input-label" for="day-input">DAY</label><br>
+          <input type="number" id="day-input" placeholder="DD" required><br>
+          <p class="error-message"></p>
+        </div>
+        <div class="input-section">
+          <label class="input-label" for="month-input">MONTH</label><br>
+          <input type="number" id="month-input" placeholder="MM" required><br>
+          <p class="error-message"></p>
+        </div>
+        <div class="input-section">
+          <label class="input-label" for="year-input">YEAR</label><br>
+          <input type="number" id="year-input" placeholder="YYYY" required><br>
+          <p class="error-message"></p>
+        </div>
+        <button id="submit-button"><img class=arrow-icon src="./assets/images/icon-arrow.svg"></button>
+      </div>
+      <div class="age-display-layout">
+        <div class="years-display-layout">
+          <h2 id="years-display">--</h2>
+          <h2 class="years-title">years</h2>
+        </div>
+        <div class="months-display-layout">
+          <h2 id="months-display">--</h2>
+          <h2 class="months-title">months</h2>
+        </div>
+        <div class="days-display-layout">
+          <h2 id="days-display">--</h2>
+          <h2 class="days-title">days</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./calculator_app.js"></script>
+</body>
+</html>

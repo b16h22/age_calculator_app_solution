@@ -1,0 +1,129 @@
+:root {
+  --input-border-color: hsl(0, 0%, 86%);
+}
+
+* {
+  font-family: Poppins;
+}
+    
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0, 0%, 94%);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card-layout {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1.5rem 1.5rem 12rem 1.5rem;
+  padding: 3.5rem;
+  width: 45rem;
+}
+
+.form {
+  display: flex;
+  position: relative;
+  padding-bottom: 2.5rem;
+  border-bottom: 3px solid hsl(0, 0%, 94%);
+}
+
+.form label {
+  color: hsl(0, 1%, 44%);
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.25rem;
+}
+
+input[type=number] {
+  border: 1px solid var(--input-border-color);
+  border-radius: 0.5rem;
+  outline: none;
+  box-sizing: border-box;
+  margin-right: 2rem;
+  padding-inline: 1.25rem;
+  padding-block: 0.75rem;
+  width: 10rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+  caret-color: hsl(259, 100%, 65%);
+  -moz-appearance: textfield;
+}
+
+input[type=number]:focus {
+  outline: 1px solid hsl(259, 100%, 65%);
+  border: none;
+}
+
+input[type=number]::placeholder {
+  color: hsla(0, 1%, 44%, 0.6);
+  font-weight: 700;
+  font-size: 1.75rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Submit button */
+
+#submit-button {
+  border: none;
+  border-radius: 50%;
+  background-color: hsl(259, 100%, 65%);
+  padding: 1rem;
+  height: 6rem;
+  width: 6rem;
+  position: absolute;
+  bottom: -30%;
+  right: 0;
+  transition: background-color 100ms ease-out;
+}
+
+#submit-button:active {
+  background-color: hsl(0, 0%, 8%);
+  transition: background-color 500ms ease-out;
+}
+
+/* Age display section */
+
+.age-display-layout {
+  margin-top: 2rem;
+}
+
+#years-display, #months-display, #days-display {
+  display: inline-block;
+  font-size: 6rem;
+  font-weight: 800;
+  font-style: italic;
+  line-height: 7rem;
+  margin-block: 0;
+  color: hsl(259, 100%, 65%);
+}
+
+.years-title, .months-title, .days-title {
+  display: inline-block;  
+  font-size: 6rem;
+  font-weight: 800;
+  font-style: italic;
+  line-height: 7rem;
+  margin-block: 0;
+  color: hsl(0, 0%, 8%);
+}
+
+/* Text */
+
+.error-message {
+  color: hsl(0, 100%, 67%);
+  font-style: italic;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
