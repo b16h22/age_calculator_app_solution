@@ -16,6 +16,10 @@ let yearInputValid = false;
 let isLeapyear = false;
 let febLength = 28;
 
+dayInput.oninput= function() {this.value = this.value.slice(0, this.maxLength)};
+monthInput.oninput= function() {this.value = this.value.slice(0, this.maxLength)};
+yearInput.oninput= function() {this.value = this.value.slice(0, this.maxLength)};
+
 function displayAge() {
   let currentDate = new Date();
   let currentYear = currentDate.getFullYear();
